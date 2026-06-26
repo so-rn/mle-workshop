@@ -563,13 +563,13 @@ dependencies = [
     { name = "pandas", version = "2.3.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11' or python_full_version >= '3.14'" },
     { name = "pandas", version = "3.0.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11' and python_full_version < '3.14'" },
     { name = "pyarrow" },
-    { name = "pytest" },
     { name = "scikit-learn" },
 ]
 
 [package.dev-dependencies]
 dev = [
     { name = "jupyter" },
+    { name = "pytest" },
     { name = "seaborn" },
 ]
 
@@ -579,13 +579,13 @@ requires-dist = [
     { name = "numpy", specifier = "==1.26.4" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pyarrow", specifier = ">=24.0.0" },
-    { name = "pytest", specifier = ">=9.1.1" },
     { name = "scikit-learn", specifier = "==1.2.2" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "pytest", specifier = ">=9.1.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
 
